@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://previews.123rf.com/images/clairev/clairev1306/clairev130600025/20026839-dog-theme-seamless-background.jpg);
+    background-size: contain; 
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+div  {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    transition: all 0.4s linear;
+    transform-style: preserve-3d;
+    margin: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+}
+
+.red{
+    background-image:url(https://media1.tenor.com/images/e925ae1430bc72230747042137c5e057/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.blue{
+    background-image:url(https://media1.tenor.com/images/2fb7b55fd3ceb6bdaf39a9ce8452d958/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.yellow{
+    background-image:url(https://media1.tenor.com/images/e75e8d0849306aaf95dbb889d414d179/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.white{
+    background-image:url(https://media1.tenor.com/images/bcbb279dee67e5a9d6a22238977a1591/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.pink{
+    background-image:url(https://media1.tenor.com/images/4c98a1549b23e7459a58fae8669db9e9/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.purple{
+    background-image:url(https://media1.tenor.com/images/66a629b82beccd72dd87b731e9188d7e/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+.down  {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-image:url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px white;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    transform: rotateY(180deg);
+    opacity: 0.7;
+    border-radius: 15px;
+
+}
+
+#myModal    {
+    background-image: url("https://media.giphy.com/media/TAuI4vAYY3DMs/giphy.gif");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+    left: 32%;
+    top: 20%;
+    height: 300px;
+    width: 500px;
+    border-radius: 35px;
+    transform: translate(-60px);
+}
+
+#play   {
+    height: 40px;
+    width: 200px;
+    color: red;
+    transform: translate(150px, 185px);
+    font-size: 26px;
+    border-radius: 35px;
+}
+
+#inText {
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: ;
+    color: green;
+    transform: translate(-15px, -119px)
+    
+}
+
+p   {
+    width: 518px;
+    transform: translate(-2px, -95px);
+    font-weight: 900
+}
